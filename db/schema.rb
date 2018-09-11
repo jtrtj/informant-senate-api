@@ -18,6 +18,18 @@ ActiveRecord::Schema.define(version: 20180911022434) do
   create_table "results", force: :cascade do |t|
     t.bigint "vote_id"
     t.string "result"
+    t.integer "democrat_yes"
+    t.integer "democrat_no"
+    t.integer "democrat_not_voting"
+    t.integer "republican_yes"
+    t.integer "republican_no"
+    t.integer "republican_not_voting"
+    t.integer "independent_yes"
+    t.integer "independent_no"
+    t.integer "independent_not_voting"
+    t.integer "total_yes"
+    t.integer "total_no"
+    t.integer "total_not_voting"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["vote_id"], name: "index_results_on_vote_id"
