@@ -3,6 +3,6 @@ class Vote < ApplicationRecord
                         :question,
                         :description,
                         :type
-
+  enum type: [:bill, :nomination]
   has_one :result
 end

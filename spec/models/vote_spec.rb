@@ -6,6 +6,7 @@ RSpec.describe Vote, type: :model do
     it { should validate_presence_of(:question) }
     it { should validate_presence_of(:description) }
     it { should validate_presence_of(:type) }
+    it { should define_enum_for(:type) }
   end
   context 'relationships' do
     it { should have_one(:result) } 
