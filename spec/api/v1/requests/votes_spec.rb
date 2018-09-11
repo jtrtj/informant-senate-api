@@ -6,6 +6,9 @@ RSpec.describe 'Votes API', type: :request do
     before { get '/api/v1/votes' }
     
     it 'returns votes' do
+      
+      binding.pry
+      
       expect(json).not_to be_empty
       expect(json.size).to eq(10)
     end
