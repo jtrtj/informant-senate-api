@@ -1,0 +1,53 @@
+{
+  "congress": 115,
+  "chamber": "Senate",
+  "session": 2,
+  "roll_call": 194,
+  "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00194.xml",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00194",
+  "vote_uri": "https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/194.json",
+  "bill": {},
+  "amendment": {},
+  "nomination": {
+      "nomination_id": "PN602-115",
+      "number": "PN602",
+      "name": "Lynn A. Johnson",
+      "agency": "Department of Health and Human Services"
+  },
+  "question": "On the Cloture Motion",
+  "description": "Lynn A. Johnson, of Colorado, to be Assistant Secretary for Family Support, Department of Health and Human Services",
+  "vote_type": "1/2",
+  "date": "2018-08-27",
+  "time": "17:34:00",
+  "result": "Cloture Motion Agreed to",
+  "tie_breaker": "",
+  "tie_breaker_vote": "",
+  "document_number": "602",
+  "document_title": "Lynn A. Johnson, of Colorado, to be Assistant Secretary for Family Support, Department of Health and Human Services",
+  "democratic": {
+      "yes": 14,
+      "no": 27,
+      "present": 0,
+      "not_voting": 6,
+      "majority_position": "No"
+  },
+  "republican": {
+      "yes": 45,
+      "no": 0,
+      "present": 0,
+      "not_voting": 5,
+      "majority_position": "Yes"
+  },
+  "independent": {
+      "yes": 1,
+      "no": 1,
+      "present": 0,
+      "not_voting": 0
+  },
+  "total": {
+      "yes": 60,
+      "no": 28,
+      "present": 0,
+      "not_voting": 11
+  }
+}
