@@ -1,5 +1,5 @@
 class AddVoteToDatabase < SimpleDelegator
-  def self.add_vote
+  def add_vote
     Vote.create(number: number, 
                 question: question,
                 description: description,
