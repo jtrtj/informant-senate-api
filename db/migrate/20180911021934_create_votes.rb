@@ -4,7 +4,7 @@ class CreateVotes < ActiveRecord::Migration[5.1]
       t.string :number
       t.string :question
       t.string :description
-      t.integer :type
+      t.integer :type_of
 
       t.timestamps
     end

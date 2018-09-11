@@ -27,7 +27,7 @@ ActiveRecord::Schema.define(version: 20180911022434) do
     t.string "number"
     t.string "question"
     t.string "description"
-    t.integer "type"
+    t.integer "type_of"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
