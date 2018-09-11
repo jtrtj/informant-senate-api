@@ -8,9 +8,6 @@ describe AddVoteToDatabase do
       vote = PreDatabaseVote.new(data)
       
       expect { AddVoteToDatabase.new(vote).add_vote }.to change { Vote.count }.by(1)
-      
-      binding.pry
-      
     end
   end
 end

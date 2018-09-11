@@ -9,6 +9,6 @@ RSpec.describe Vote, type: :model do
     it { should define_enum_for(:type_of) }
   end
   context 'relationships' do
-    it { should have_one(:result) } 
+    
   end
 end
