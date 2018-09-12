@@ -32,6 +32,9 @@ group :test do
   gem 'database_cleaner'
   gem 'faker'
   gem 'simplecov'
+  gem 'nyan-cat-formatter'
+  gem 'webmock'
+  gem 'vcr'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

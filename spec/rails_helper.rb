@@ -10,6 +10,12 @@ require 'rspec/rails'
 # Add additional requires below this line. Rails is not loaded until this point!
 require 'database_cleaner'
 
+VCR.configure do | config |
+  config.cassette_library_dir = 'fixtures/vcr_cassettes'
+  config.hook_into :webmock
+  config.filter_sensitive_data("<PROPUBLICA_API_KEY>") { ENV['propublica_api_key'] }
+  config.configure_rspec_metadata!
+end
 
 # configure shoulda matchers to use rspec as the test framework and full matcher libraries for rails
 Shoulda::Matchers.configure do |config|

@@ -1,0 +1,590 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.propublica.org/congress/v1/senate/votes/recent.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - "<PROPUBLICA_API_KEY>"
+      User-Agent:
+      - Faraday v0.15.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '42918'
+      Connection:
+      - keep-alive
+      Date:
+      - Wed, 12 Sep 2018 03:40:03 GMT
+      X-Amzn-Requestid:
+      - 884ce159-b63d-11e8-a546-933386c14d61
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
+      X-Amz-Apigw-Id:
+      - NFqW-HudIAMFlzg=
+      Access-Control-Allow-Methods:
+      - GET,OPTIONS
+      X-Amzn-Trace-Id:
+      - Root=1-5b988a93-5dbabd9a66e093da972fe6a0;Sampled=0
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 e158a5cd644f102abc630a9f56b59d78.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - ArDfamjZYaSJsrObsl18MN1ZrGekK-5le81RGeUS4UOZb5yJhLZM6w==
+    body:
+      encoding: UTF-8
+      string: "{\n   \"status\":\"OK\",\n   \"copyright\":\"Copyright (c) 2018 Pro
+        Publica Inc. All Rights Reserved.\",\n   \"results\": {\n      \"chamber\":
+        \"Senate\",\n      \"offset\": 0,\n      \n      \n      \"num_results\":
+        20,\n      \"votes\": [\n        {\n           \"congress\": 115,\n           \"chamber\":
+        \"Senate\",\n           \"session\": 2,\n           \"roll_call\": 204,\n
+        \          \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00204.xml\",\n
+        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00204\",\n
+        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/204.json\",\n
+        \          \"bill\": {},\n           \"amendment\": {\n           },\n           \"nomination\":
+        {\n             \"nomination_id\": \"PN1650-115\",\n             \"number\":
+        \"PN1650\",\n             \"name\": \"Charles J. Williams\",\n             \"agency\":
+        \"The Judiciary\"\n           },\n           \"question\": \"On the Nomination\",\n
+        \          \"description\": \"Charles J. Williams, of Iowa, to be United States
+        District Judge for the Northern District of Iowa\",\n           \"vote_type\":
+        \"1/2\",\n           \"date\": \"2018-09-06\",\n           \"time\": \"14:14:00\",\n
+        \          \"result\": \"Nomination Confirmed\",\n           \"tie_breaker\":
+        \"\",\n           \"tie_breaker_vote\": \"\",\n           \"document_number\":
+        \"1650\",\n           \"document_title\": \"Charles J. Williams, of Iowa,
+        to be United States District Judge for the Northern District of Iowa\",\n
+        \          \"democratic\": {\n             \"yes\": 34,\n             \"no\":
+        11,\n             \"present\": 0,\n             \"not_voting\": 2,\n             \"majority_position\":
+        \"Yes\"\n            },\n           \"republican\": {\n             \"yes\":
+        44,\n             \"no\": 0,\n             \"present\": 0,\n             \"not_voting\":
+        7,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
+        {\n             \"yes\": 1,\n             \"no\": 1,\n             \"present\":
+        0,\n             \"not_voting\": 0\n            },\n           \"total\":
+        {\n             \"yes\": 79,\n             \"no\": 12,\n             \"present\":
+        0,\n             \"not_voting\": 9}\n          },\n        {\n           \"congress\":
+        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
+        203,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00203.xml\",\n
+        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00203\",\n
+        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/203.json\",\n
+        \          \"bill\": {},\n           \"amendment\": {\n           },\n           \"nomination\":
+        {\n             \"nomination_id\": \"PN1525-115\",\n             \"number\":
+        \"PN1525\",\n             \"name\": \"Dominic W. Lanza\",\n             \"agency\":
+        \"The Judiciary\"\n           },\n           \"question\": \"On the Nomination\",\n
+        \          \"description\": \"Dominic W. Lanza, of Arizona, to be United States
+        District Judge for the District of Arizona\",\n           \"vote_type\": \"1/2\",\n
+        \          \"date\": \"2018-09-06\",\n           \"time\": \"13:48:00\",\n
+        \          \"result\": \"Nomination Confirmed\",\n           \"tie_breaker\":
+        \"\",\n           \"tie_breaker_vote\": \"\",\n           \"document_number\":
+        \"1525\",\n           \"document_title\": \"Dominic W. Lanza, of Arizona,
+        to be United States District Judge for the District of Arizona\",\n           \"democratic\":
+        {\n             \"yes\": 11,\n             \"no\": 34,\n             \"present\":
+        0,\n             \"not_voting\": 2,\n             \"majority_position\": \"No\"\n
+        \           },\n           \"republican\": {\n             \"yes\": 48,\n
+        \            \"no\": 0,\n             \"present\": 0,\n             \"not_voting\":
+        3,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
+        {\n             \"yes\": 1,\n             \"no\": 1,\n             \"present\":
+        0,\n             \"not_voting\": 0\n            },\n           \"total\":
+        {\n             \"yes\": 60,\n             \"no\": 35,\n             \"present\":
+        0,\n             \"not_voting\": 5}\n          },\n        {\n           \"congress\":
+        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
+        202,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00202.xml\",\n
+        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00202\",\n
+        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/202.json\",\n
+        \          \"bill\": {},\n           \"amendment\": {\n           },\n           \"nomination\":
+        {\n             \"nomination_id\": \"PN2047-115\",\n             \"number\":
+        \"PN2047\",\n             \"name\": \"Elad L. Roisman\",\n             \"agency\":
+        \"Securities and Exchange Commission\"\n           },\n           \"question\":
+        \"On the Nomination\",\n           \"description\": \"Elad L. Roisman, of
+        Maine, to be a Member of the Securities and Exchange Commission for a term
+        expiring June 5, 2023\",\n           \"vote_type\": \"1/2\",\n           \"date\":
+        \"2018-09-05\",\n           \"time\": \"12:10:00\",\n           \"result\":
+        \"Nomination Confirmed\",\n           \"tie_breaker\": \"\",\n           \"tie_breaker_vote\":
+        \"\",\n           \"document_number\": \"2047\",\n           \"document_title\":
+        \"Elad L. Roisman, of Maine, to be a Member of the Securities and Exchange
+        Commission for a term expiring June 5, 2023\",\n           \"democratic\":
+        {\n             \"yes\": 34,\n             \"no\": 13,\n             \"present\":
+        0,\n             \"not_voting\": 0,\n             \"majority_position\": \"Yes\"\n
+        \           },\n           \"republican\": {\n             \"yes\": 50,\n
+        \            \"no\": 0,\n             \"present\": 0,\n             \"not_voting\":
+        0,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
+        {\n             \"yes\": 1,\n             \"no\": 1,\n             \"present\":
+        0,\n             \"not_voting\": 0\n            },\n           \"total\":
+        {\n             \"yes\": 85,\n             \"no\": 14,\n             \"present\":
+        0,\n             \"not_voting\": 0}\n          },\n        {\n           \"congress\":
+        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
+        201,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00201.xml\",\n
+        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00201\",\n
+        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/201.json\",\n
+        \          \"bill\": {},\n           \"amendment\": {\n           },\n           \"nomination\":
+        {\n             \"nomination_id\": \"PN2047-115\",\n             \"number\":
+        \"PN2047\",\n             \"name\": \"Elad L. Roisman\",\n             \"agency\":
+        \"Securities and Exchange Commission\"\n           },\n           \"question\":
+        \"On the Cloture Motion\",\n           \"description\": \"Elad L. Roisman,
+        of Maine, to be a Member of the Securities and Exchange Commission for a term
+        expiring June 5, 2023\",\n           \"vote_type\": \"1/2\",\n           \"date\":
+        \"2018-09-04\",\n           \"time\": \"17:31:00\",\n           \"result\":
+        \"Cloture Motion Agreed to\",\n           \"tie_breaker\": \"\",\n           \"tie_breaker_vote\":
+        \"\",\n           \"document_number\": \"2047\",\n           \"document_title\":
+        \"Elad L. Roisman, of Maine, to be a Member of the Securities and Exchange
+        Commission for a term expiring June 5, 2023\",\n           \"democratic\":
+        {\n             \"yes\": 32,\n             \"no\": 14,\n             \"present\":
+        0,\n             \"not_voting\": 1,\n             \"majority_position\": \"Yes\"\n
+        \           },\n           \"republican\": {\n             \"yes\": 50,\n
+        \            \"no\": 0,\n             \"present\": 0,\n             \"not_voting\":
+        0,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
+        {\n             \"yes\": 1,\n             \"no\": 0,\n             \"present\":
+        0,\n             \"not_voting\": 1\n            },\n           \"total\":
+        {\n             \"yes\": 83,\n             \"no\": 14,\n             \"present\":
+        0,\n             \"not_voting\": 2}\n          },\n        {\n           \"congress\":
+        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
+        200,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00200.xml\",\n
+        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00200\",\n
+        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/200.json\",\n
+        \          \"bill\": {},\n           \"amendment\": {\n           },\n           \"nomination\":
+        {\n             \"nomination_id\": \"PN1413-115\",\n             \"number\":
+        \"PN1413\",\n             \"name\": \"Charles Barnes Goodwin\",\n             \"agency\":
+        \"The Judiciary\"\n           },\n           \"question\": \"On the Nomination\",\n
+        \          \"description\": \"Charles Barnes Goodwin, of Oklahoma, to be United
+        States District Judge for the Western District of Oklahoma\",\n           \"vote_type\":
+        \"1/2\",\n           \"date\": \"2018-08-28\",\n           \"time\": \"16:55:00\",\n
+        \          \"result\": \"Nomination Confirmed\",\n           \"tie_breaker\":
+        \"\",\n           \"tie_breaker_vote\": \"\",\n           \"document_number\":
+        \"1413\",\n           \"document_title\": \"Charles Barnes Goodwin, of Oklahoma,
+        to be United States District Judge for the Western District of Oklahoma\",\n
+        \          \"democratic\": {\n             \"yes\": 6,\n             \"no\":
+        40,\n             \"present\": 0,\n             \"not_voting\": 1,\n             \"majority_position\":
+        \"No\"\n            },\n           \"republican\": {\n             \"yes\":
+        46,\n             \"no\": 0,\n             \"present\": 0,\n             \"not_voting\":
+        4,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
+        {\n             \"yes\": 0,\n             \"no\": 2,\n             \"present\":
+        0,\n             \"not_voting\": 0\n            },\n           \"total\":
+        {\n             \"yes\": 52,\n             \"no\": 42,\n             \"present\":
+        0,\n             \"not_voting\": 5}\n          },\n        {\n           \"congress\":
+        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
+        199,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00199.xml\",\n
+        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00199\",\n
+        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/199.json\",\n
+        \          \"bill\": {},\n           \"amendment\": {\n           },\n           \"nomination\":
+        {\n             \"nomination_id\": \"PN1398-115\",\n             \"number\":
+        \"PN1398\",\n             \"name\": \"Isabel Marie Keenan Patelunas\",\n             \"agency\":
+        \"Department of the Treasury\"\n           },\n           \"question\": \"On
+        the Nomination\",\n           \"description\": \"Isabel Marie Keenan Patelunas,
+        of Pennsylvania, to be Assistant Secretary for Intelligence and Analysis,
+        Department of the Treasury\",\n           \"vote_type\": \"1/2\",\n           \"date\":
+        \"2018-08-28\",\n           \"time\": \"16:36:00\",\n           \"result\":
+        \"Nomination Confirmed\",\n           \"tie_breaker\": \"\",\n           \"tie_breaker_vote\":
+        \"\",\n           \"document_number\": \"1398\",\n           \"document_title\":
+        \"Isabel Marie Keenan Patelunas, of Pennsylvania, to be Assistant Secretary
+        for Intelligence and Analysis, Department of the Treasury\",\n           \"democratic\":
+        {\n             \"yes\": 27,\n             \"no\": 19,\n             \"present\":
+        0,\n             \"not_voting\": 1,\n             \"majority_position\": \"Yes\"\n
+        \           },\n           \"republican\": {\n             \"yes\": 47,\n
+        \            \"no\": 0,\n             \"present\": 0,\n             \"not_voting\":
+        3,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
+        {\n             \"yes\": 1,\n             \"no\": 1,\n             \"present\":
+        0,\n             \"not_voting\": 0\n            },\n           \"total\":
+        {\n             \"yes\": 75,\n             \"no\": 20,\n             \"present\":
+        0,\n             \"not_voting\": 4}\n          },\n        {\n           \"congress\":
+        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
+        198,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00198.xml\",\n
+        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00198\",\n
+        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/198.json\",\n
+        \          \"bill\": {},\n           \"amendment\": {\n           },\n           \"nomination\":
+        {\n             \"nomination_id\": \"PN1414-115\",\n             \"number\":
+        \"PN1414\",\n             \"name\": \"Joseph H. Hunt\",\n             \"agency\":
+        \"Department of Justice\"\n           },\n           \"question\": \"On the
+        Nomination\",\n           \"description\": \"Joseph H. Hunt, of Maryland,
+        to be an Assistant Attorney General\",\n           \"vote_type\": \"1/2\",\n
+        \          \"date\": \"2018-08-28\",\n           \"time\": \"16:21:00\",\n
+        \          \"result\": \"Nomination Confirmed\",\n           \"tie_breaker\":
+        \"\",\n           \"tie_breaker_vote\": \"\",\n           \"document_number\":
+        \"1414\",\n           \"document_title\": \"Joseph H. Hunt, of Maryland, to
+        be an Assistant Attorney General\",\n           \"democratic\": {\n             \"yes\":
+        24,\n             \"no\": 22,\n             \"present\": 0,\n             \"not_voting\":
+        1,\n             \"majority_position\": \"Yes\"\n            },\n           \"republican\":
+        {\n             \"yes\": 47,\n             \"no\": 0,\n             \"present\":
+        0,\n             \"not_voting\": 3,\n             \"majority_position\": \"Yes\"\n
+        \           },\n           \"independent\": {\n             \"yes\": 1,\n
+        \            \"no\": 1,\n             \"present\": 0,\n             \"not_voting\":
+        0\n            },\n           \"total\": {\n             \"yes\": 72,\n             \"no\":
+        23,\n             \"present\": 0,\n             \"not_voting\": 4}\n          },\n
+        \       {\n           \"congress\": 115,\n           \"chamber\": \"Senate\",\n
+        \          \"session\": 2,\n           \"roll_call\": 197,\n           \"source\":
+        \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00197.xml\",\n
+        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00197\",\n
+        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/197.json\",\n
+        \          \"bill\": {},\n           \"amendment\": {\n           },\n           \"nomination\":
+        {\n             \"nomination_id\": \"PN1861-115\",\n             \"number\":
+        \"PN1861\",\n             \"name\": \"Richard Clarida\",\n             \"agency\":
+        \"Federal Reserve System\"\n           },\n           \"question\": \"On the
+        Nomination\",\n           \"description\": \"Richard Clarida, of Connecticut,
+        to be Vice Chairman of the Board of Governors of the Federal Reserve System
+        for a term of four years\",\n           \"vote_type\": \"1/2\",\n           \"date\":
+        \"2018-08-28\",\n           \"time\": \"15:46:00\",\n           \"result\":
+        \"Nomination Confirmed\",\n           \"tie_breaker\": \"\",\n           \"tie_breaker_vote\":
+        \"\",\n           \"document_number\": \"1861\",\n           \"document_title\":
+        \"Richard Clarida, of Connecticut, to be Vice Chairman of the Board of Governors
+        of the Federal Reserve System for a term of four years\",\n           \"democratic\":
+        {\n             \"yes\": 23,\n             \"no\": 23,\n             \"present\":
+        0,\n             \"not_voting\": 1,\n             \"majority_position\": \"None\"\n
+        \           },\n           \"republican\": {\n             \"yes\": 46,\n
+        \            \"no\": 1,\n             \"present\": 0,\n             \"not_voting\":
+        3,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
+        {\n             \"yes\": 0,\n             \"no\": 2,\n             \"present\":
+        0,\n             \"not_voting\": 0\n            },\n           \"total\":
+        {\n             \"yes\": 69,\n             \"no\": 26,\n             \"present\":
+        0,\n             \"not_voting\": 4}\n          },\n        {\n           \"congress\":
+        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
+        196,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00196.xml\",\n
+        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00196\",\n
+        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/196.json\",\n
+        \          \"bill\": {},\n           \"amendment\": {\n           },\n           \"nomination\":
+        {\n             \"nomination_id\": \"PN1861-115\",\n             \"number\":
+        \"PN1861\",\n             \"name\": \"Richard Clarida\",\n             \"agency\":
+        \"Federal Reserve System\"\n           },\n           \"question\": \"On the
+        Cloture Motion\",\n           \"description\": \"Richard Clarida, of Connecticut,
+        to be Vice Chairman of the Board of Governors of the Federal Reserve System
+        for a term of four years\",\n           \"vote_type\": \"1/2\",\n           \"date\":
+        \"2018-08-28\",\n           \"time\": \"11:14:00\",\n           \"result\":
+        \"Cloture Motion Agreed to\",\n           \"tie_breaker\": \"\",\n           \"tie_breaker_vote\":
+        \"\",\n           \"document_number\": \"1861\",\n           \"document_title\":
+        \"Richard Clarida, of Connecticut, to be Vice Chairman of the Board of Governors
+        of the Federal Reserve System for a term of four years\",\n           \"democratic\":
+        {\n             \"yes\": 23,\n             \"no\": 23,\n             \"present\":
+        0,\n             \"not_voting\": 1,\n             \"majority_position\": \"None\"\n
+        \           },\n           \"republican\": {\n             \"yes\": 46,\n
+        \            \"no\": 1,\n             \"present\": 0,\n             \"not_voting\":
+        3,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
+        {\n             \"yes\": 0,\n             \"no\": 2,\n             \"present\":
+        0,\n             \"not_voting\": 0\n            },\n           \"total\":
+        {\n             \"yes\": 69,\n             \"no\": 26,\n             \"present\":
+        0,\n             \"not_voting\": 4}\n          },\n        {\n           \"congress\":
+        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
+        195,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00195.xml\",\n
+        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00195\",\n
+        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/195.json\",\n
+        \          \"bill\": {},\n           \"amendment\": {\n           },\n           \"nomination\":
+        {\n             \"nomination_id\": \"PN602-115\",\n             \"number\":
+        \"PN602\",\n             \"name\": \"Lynn A. Johnson\",\n             \"agency\":
+        \"Department of Health and Human Services\"\n           },\n           \"question\":
+        \"On the Nomination\",\n           \"description\": \"Lynn A. Johnson, of
+        Colorado, to be Assistant Secretary for Family Support, Department of Health
+        and Human Services\",\n           \"vote_type\": \"1/2\",\n           \"date\":
+        \"2018-08-28\",\n           \"time\": \"10:42:00\",\n           \"result\":
+        \"Nomination Confirmed\",\n           \"tie_breaker\": \"\",\n           \"tie_breaker_vote\":
+        \"\",\n           \"document_number\": \"602\",\n           \"document_title\":
+        \"Lynn A. Johnson, of Colorado, to be Assistant Secretary for Family Support,
+        Department of Health and Human Services\",\n           \"democratic\": {\n
+        \            \"yes\": 19,\n             \"no\": 27,\n             \"present\":
+        0,\n             \"not_voting\": 1,\n             \"majority_position\": \"No\"\n
+        \           },\n           \"republican\": {\n             \"yes\": 47,\n
+        \            \"no\": 0,\n             \"present\": 0,\n             \"not_voting\":
+        3,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
+        {\n             \"yes\": 1,\n             \"no\": 1,\n             \"present\":
+        0,\n             \"not_voting\": 0\n            },\n           \"total\":
+        {\n             \"yes\": 67,\n             \"no\": 28,\n             \"present\":
+        0,\n             \"not_voting\": 4}\n          },\n        {\n           \"congress\":
+        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
+        194,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00194.xml\",\n
+        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00194\",\n
+        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/194.json\",\n
+        \          \"bill\": {},\n           \"amendment\": {\n           },\n           \"nomination\":
+        {\n             \"nomination_id\": \"PN602-115\",\n             \"number\":
+        \"PN602\",\n             \"name\": \"Lynn A. Johnson\",\n             \"agency\":
+        \"Department of Health and Human Services\"\n           },\n           \"question\":
+        \"On the Cloture Motion\",\n           \"description\": \"Lynn A. Johnson,
+        of Colorado, to be Assistant Secretary for Family Support, Department of Health
+        and Human Services\",\n           \"vote_type\": \"1/2\",\n           \"date\":
+        \"2018-08-27\",\n           \"time\": \"17:34:00\",\n           \"result\":
+        \"Cloture Motion Agreed to\",\n           \"tie_breaker\": \"\",\n           \"tie_breaker_vote\":
+        \"\",\n           \"document_number\": \"602\",\n           \"document_title\":
+        \"Lynn A. Johnson, of Colorado, to be Assistant Secretary for Family Support,
+        Department of Health and Human Services\",\n           \"democratic\": {\n
+        \            \"yes\": 14,\n             \"no\": 27,\n             \"present\":
+        0,\n             \"not_voting\": 6,\n             \"majority_position\": \"No\"\n
+        \           },\n           \"republican\": {\n             \"yes\": 45,\n
+        \            \"no\": 0,\n             \"present\": 0,\n             \"not_voting\":
+        5,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
+        {\n             \"yes\": 1,\n             \"no\": 1,\n             \"present\":
+        0,\n             \"not_voting\": 0\n            },\n           \"total\":
+        {\n             \"yes\": 60,\n             \"no\": 28,\n             \"present\":
+        0,\n             \"not_voting\": 11}\n          },\n        {\n           \"congress\":
+        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
+        193,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00193.xml\",\n
+        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00193\",\n
+        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/193.json\",\n
+        \          \"bill\": {\n           \"bill_id\": \"hr6157-115\",\n           \"number\":
+        \"H.R.6157\",\n           \"sponsor_id\": \"G000377\",\n           \"api_uri\":
+        \"https://api.propublica.org/congress/v1/115/bills/hr6157.json\",\n           \"title\":
+        \"Making appropriations for the Department of Defense for the fiscal year
+        ending September 30, 2019, and for other purposes.\",\n           \"latest_action\":
+        \"Message on Senate action sent to the House.\"\n           },\n           \"amendment\":
+        {\n           },\n           \"question\": \"On Passage of the Bill\",\n           \"description\":
+        \"A bill making appropriations for the Department of Defense for the fiscal
+        year ending September 30, 2019, and for other purposes.\",\n           \"vote_type\":
+        \"1/2\",\n           \"date\": \"2018-08-23\",\n           \"time\": \"17:15:00\",\n
+        \          \"result\": \"Bill Passed\",\n           \"tie_breaker\": \"\",\n
+        \          \"tie_breaker_vote\": \"\",\n           \"document_number\": \"6157\",\n
+        \          \"document_title\": \"A bill making appropriations for the Department
+        of Defense for the fiscal year ending September 30, 2019, and for other purposes.\",\n
+        \          \"democratic\": {\n             \"yes\": 44,\n             \"no\":
+        0,\n             \"present\": 0,\n             \"not_voting\": 3,\n             \"majority_position\":
+        \"Yes\"\n            },\n           \"republican\": {\n             \"yes\":
+        40,\n             \"no\": 6,\n             \"present\": 0,\n             \"not_voting\":
+        5,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
+        {\n             \"yes\": 1,\n             \"no\": 1,\n             \"present\":
+        0,\n             \"not_voting\": 0\n            },\n           \"total\":
+        {\n             \"yes\": 85,\n             \"no\": 7,\n             \"present\":
+        0,\n             \"not_voting\": 8}\n          },\n        {\n           \"congress\":
+        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
+        192,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00192.xml\",\n
+        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00192\",\n
+        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/192.json\",\n
+        \          \"bill\": {\n           \"bill_id\": \"hr6157-115\",\n           \"number\":
+        \"H.R.6157\",\n           \"sponsor_id\": \"G000377\",\n           \"api_uri\":
+        \"https://api.propublica.org/congress/v1/115/bills/hr6157.json\",\n           \"title\":
+        \"Making appropriations for the Department of Defense for the fiscal year
+        ending September 30, 2019, and for other purposes.\",\n           \"latest_action\":
+        \"Message on Senate action sent to the House.\"\n           },\n           \"amendment\":
+        {\n           \"number\": \"S.Amdt. 3695\",\n           \"api_uri\": \"https://api.propublica.org/congress/v1/115/amendments/samdt3695.json\",\n
+        \          \"sponsor_id\": \"S000320\",\n           \"sponsor\": \"Richard
+        C. Shelby\",\n           \"sponsor_uri\": \"https://api.propublica.org/congress/v1/members/S000320.json\",\n
+        \          \"sponsor_party\": \"R\",\n           \"sponsor_state\": \"Ala.\"\n
+        \          },\n           \"question\": \"On the Motion\",\n           \"description\":
+        \"In the nature of a substitute.\",\n           \"vote_type\": \"3/5\",\n
+        \          \"date\": \"2018-08-23\",\n           \"time\": \"16:47:00\",\n
+        \          \"result\": \"Motion Agreed to\",\n           \"tie_breaker\":
+        \"\",\n           \"tie_breaker_vote\": \"\",\n           \"document_number\":
+        \"\",\n           \"document_title\": \"\",\n           \"democratic\": {\n
+        \            \"yes\": 44,\n             \"no\": 0,\n             \"present\":
+        0,\n             \"not_voting\": 3,\n             \"majority_position\": \"Yes\"\n
+        \           },\n           \"republican\": {\n             \"yes\": 22,\n
+        \            \"no\": 24,\n             \"present\": 0,\n             \"not_voting\":
+        5,\n             \"majority_position\": \"None\"\n            },\n           \"independent\":
+        {\n             \"yes\": 2,\n             \"no\": 0,\n             \"present\":
+        0,\n             \"not_voting\": 0\n            },\n           \"total\":
+        {\n             \"yes\": 68,\n             \"no\": 24,\n             \"present\":
+        0,\n             \"not_voting\": 8}\n          },\n        {\n           \"congress\":
+        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
+        191,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00191.xml\",\n
+        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00191\",\n
+        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/191.json\",\n
+        \          \"bill\": {\n           \"bill_id\": \"hr6157-115\",\n           \"number\":
+        \"H.R.6157\",\n           \"sponsor_id\": \"G000377\",\n           \"api_uri\":
+        \"https://api.propublica.org/congress/v1/115/bills/hr6157.json\",\n           \"title\":
+        \"Making appropriations for the Department of Defense for the fiscal year
+        ending September 30, 2019, and for other purposes.\",\n           \"latest_action\":
+        \"Message on Senate action sent to the House.\"\n           },\n           \"amendment\":
+        {\n           \"number\": \"S.Amdt. 3967 to S.Amdt. 3695\",\n           \"api_uri\":
+        \"https://api.propublica.org/congress/v1/115/amendments/samdt3967.json\",\n
+        \          \"sponsor_id\": \"P000603\",\n           \"sponsor\": \"Rand Paul\",\n
+        \          \"sponsor_uri\": \"https://api.propublica.org/congress/v1/members/P000603.json\",\n
+        \          \"sponsor_party\": \"R\",\n           \"sponsor_state\": \"Ky.\"\n
+        \          },\n           \"question\": \"On the Amendment\",\n           \"description\":
+        \"To prohibit Federal funds being made available to a prohibited entity.\",\n
+        \          \"vote_type\": \"3/5\",\n           \"date\": \"2018-08-23\",\n
+        \          \"time\": \"16:10:00\",\n           \"result\": \"Amendment Rejected\",\n
+        \          \"tie_breaker\": \"\",\n           \"tie_breaker_vote\": \"\",\n
+        \          \"document_number\": \"\",\n           \"document_title\": \"\",\n
+        \          \"democratic\": {\n             \"yes\": 0,\n             \"no\":
+        44,\n             \"present\": 0,\n             \"not_voting\": 3,\n             \"majority_position\":
+        \"No\"\n            },\n           \"republican\": {\n             \"yes\":
+        45,\n             \"no\": 2,\n             \"present\": 0,\n             \"not_voting\":
+        4,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
+        {\n             \"yes\": 0,\n             \"no\": 2,\n             \"present\":
+        0,\n             \"not_voting\": 0\n            },\n           \"total\":
+        {\n             \"yes\": 45,\n             \"no\": 48,\n             \"present\":
+        0,\n             \"not_voting\": 7}\n          },\n        {\n           \"congress\":
+        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
+        190,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00190.xml\",\n
+        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00190\",\n
+        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/190.json\",\n
+        \          \"bill\": {\n           \"bill_id\": \"hr6157-115\",\n           \"number\":
+        \"H.R.6157\",\n           \"sponsor_id\": \"G000377\",\n           \"api_uri\":
+        \"https://api.propublica.org/congress/v1/115/bills/hr6157.json\",\n           \"title\":
+        \"Making appropriations for the Department of Defense for the fiscal year
+        ending September 30, 2019, and for other purposes.\",\n           \"latest_action\":
+        \"Message on Senate action sent to the House.\"\n           },\n           \"amendment\":
+        {\n           \"number\": \"S.Amdt. 3695\",\n           \"api_uri\": \"https://api.propublica.org/congress/v1/115/amendments/samdt3695.json\",\n
+        \          \"sponsor_id\": \"S000320\",\n           \"sponsor\": \"Richard
+        C. Shelby\",\n           \"sponsor_uri\": \"https://api.propublica.org/congress/v1/members/S000320.json\",\n
+        \          \"sponsor_party\": \"R\",\n           \"sponsor_state\": \"Ala.\"\n
+        \          },\n           \"question\": \"On the Cloture Motion\",\n           \"description\":
+        \"In the nature of a substitute.\",\n           \"vote_type\": \"3/5\",\n
+        \          \"date\": \"2018-08-23\",\n           \"time\": \"10:35:00\",\n
+        \          \"result\": \"Cloture Motion Agreed to\",\n           \"tie_breaker\":
+        \"\",\n           \"tie_breaker_vote\": \"\",\n           \"document_number\":
+        \"\",\n           \"document_title\": \"\",\n           \"democratic\": {\n
+        \            \"yes\": 44,\n             \"no\": 0,\n             \"present\":
+        0,\n             \"not_voting\": 3,\n             \"majority_position\": \"Yes\"\n
+        \           },\n           \"republican\": {\n             \"yes\": 45,\n
+        \            \"no\": 5,\n             \"present\": 0,\n             \"not_voting\":
+        1,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
+        {\n             \"yes\": 1,\n             \"no\": 1,\n             \"present\":
+        0,\n             \"not_voting\": 0\n            },\n           \"total\":
+        {\n             \"yes\": 90,\n             \"no\": 6,\n             \"present\":
+        0,\n             \"not_voting\": 4}\n          },\n        {\n           \"congress\":
+        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
+        189,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00189.xml\",\n
+        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00189\",\n
+        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/189.json\",\n
+        \          \"bill\": {\n           \"bill_id\": \"hr6157-115\",\n           \"number\":
+        \"H.R.6157\",\n           \"sponsor_id\": \"G000377\",\n           \"api_uri\":
+        \"https://api.propublica.org/congress/v1/115/bills/hr6157.json\",\n           \"title\":
+        \"Making appropriations for the Department of Defense for the fiscal year
+        ending September 30, 2019, and for other purposes.\",\n           \"latest_action\":
+        \"Message on Senate action sent to the House.\"\n           },\n           \"amendment\":
+        {\n           \"number\": \"S.Amdt. 3703 to S.Amdt. 3695\",\n           \"api_uri\":
+        \"https://api.propublica.org/congress/v1/115/amendments/samdt3703.json\",\n
+        \          \"sponsor_id\": \"K000393\",\n           \"sponsor\": \"John Kennedy\",\n
+        \          \"sponsor_uri\": \"https://api.propublica.org/congress/v1/members/K000393.json\",\n
+        \          \"sponsor_party\": \"R\",\n           \"sponsor_state\": \"La.\"\n
+        \          },\n           \"question\": \"On the Amendment\",\n           \"description\":
+        \"To increase funding for the National Suicide Prevention Lifeline.\",\n           \"vote_type\":
+        \"1/2\",\n           \"date\": \"2018-08-21\",\n           \"time\": \"12:53:00\",\n
+        \          \"result\": \"Amendment Agreed to\",\n           \"tie_breaker\":
+        \"\",\n           \"tie_breaker_vote\": \"\",\n           \"document_number\":
+        \"\",\n           \"document_title\": \"\",\n           \"democratic\": {\n
+        \            \"yes\": 44,\n             \"no\": 0,\n             \"present\":
+        0,\n             \"not_voting\": 3,\n             \"majority_position\": \"Yes\"\n
+        \           },\n           \"republican\": {\n             \"yes\": 49,\n
+        \            \"no\": 0,\n             \"present\": 0,\n             \"not_voting\":
+        2,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
+        {\n             \"yes\": 2,\n             \"no\": 0,\n             \"present\":
+        0,\n             \"not_voting\": 0\n            },\n           \"total\":
+        {\n             \"yes\": 95,\n             \"no\": 0,\n             \"present\":
+        0,\n             \"not_voting\": 5}\n          },\n        {\n           \"congress\":
+        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
+        188,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00188.xml\",\n
+        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00188\",\n
+        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/188.json\",\n
+        \          \"bill\": {\n           \"bill_id\": \"hr6157-115\",\n           \"number\":
+        \"H.R.6157\",\n           \"sponsor_id\": \"G000377\",\n           \"api_uri\":
+        \"https://api.propublica.org/congress/v1/115/bills/hr6157.json\",\n           \"title\":
+        \"Making appropriations for the Department of Defense for the fiscal year
+        ending September 30, 2019, and for other purposes.\",\n           \"latest_action\":
+        \"Message on Senate action sent to the House.\"\n           },\n           \"amendment\":
+        {\n           \"number\": \"S.Amdt. 3773 to S.Amdt. 3695\",\n           \"api_uri\":
+        \"https://api.propublica.org/congress/v1/115/amendments/samdt3773.json\",\n
+        \          \"sponsor_id\": \"N000032\",\n           \"sponsor\": \"Bill Nelson\",\n
+        \          \"sponsor_uri\": \"https://api.propublica.org/congress/v1/members/N000032.json\",\n
+        \          \"sponsor_party\": \"D\",\n           \"sponsor_state\": \"Fla.\"\n
+        \          },\n           \"question\": \"On the Amendment\",\n           \"description\":
+        \"To require a Comptroller General of the United States report on the implementation
+        of the Military Health System Genesis electronic health record.\",\n           \"vote_type\":
+        \"1/2\",\n           \"date\": \"2018-08-21\",\n           \"time\": \"12:10:00\",\n
+        \          \"result\": \"Amendment Agreed to\",\n           \"tie_breaker\":
+        \"\",\n           \"tie_breaker_vote\": \"\",\n           \"document_number\":
+        \"\",\n           \"document_title\": \"\",\n           \"democratic\": {\n
+        \            \"yes\": 44,\n             \"no\": 0,\n             \"present\":
+        0,\n             \"not_voting\": 3,\n             \"majority_position\": \"Yes\"\n
+        \           },\n           \"republican\": {\n             \"yes\": 49,\n
+        \            \"no\": 0,\n             \"present\": 0,\n             \"not_voting\":
+        2,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
+        {\n             \"yes\": 2,\n             \"no\": 0,\n             \"present\":
+        0,\n             \"not_voting\": 0\n            },\n           \"total\":
+        {\n             \"yes\": 95,\n             \"no\": 0,\n             \"present\":
+        0,\n             \"not_voting\": 5}\n          },\n        {\n           \"congress\":
+        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
+        187,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00187.xml\",\n
+        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00187\",\n
+        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/187.json\",\n
+        \          \"bill\": {\n           \"bill_id\": \"hr6157-115\",\n           \"number\":
+        \"H.R.6157\",\n           \"sponsor_id\": \"G000377\",\n           \"api_uri\":
+        \"https://api.propublica.org/congress/v1/115/bills/hr6157.json\",\n           \"title\":
+        \"Making appropriations for the Department of Defense for the fiscal year
+        ending September 30, 2019, and for other purposes.\",\n           \"latest_action\":
+        \"Message on Senate action sent to the House.\"\n           },\n           \"amendment\":
+        {\n           \"number\": \"S.Amdt. 3706 to S.Amdt. 3695\",\n           \"api_uri\":
+        \"https://api.propublica.org/congress/v1/115/amendments/samdt3706.json\",\n
+        \          \"sponsor_id\": \"F000463\",\n           \"sponsor\": \"Deb Fischer\",\n
+        \          \"sponsor_uri\": \"https://api.propublica.org/congress/v1/members/F000463.json\",\n
+        \          \"sponsor_party\": \"R\",\n           \"sponsor_state\": \"Neb.\"\n
+        \          },\n           \"question\": \"On the Amendment\",\n           \"description\":
+        \"To appropriate an additional $10,000,000 for Operation and Maintenance,
+        Defense-Wide for POW/MIA identification within the Defense Personnel Accounting
+        Agency, and to provide an offset.\",\n           \"vote_type\": \"1/2\",\n
+        \          \"date\": \"2018-08-20\",\n           \"time\": \"18:03:00\",\n
+        \          \"result\": \"Amendment Agreed to\",\n           \"tie_breaker\":
+        \"\",\n           \"tie_breaker_vote\": \"\",\n           \"document_number\":
+        \"\",\n           \"document_title\": \"\",\n           \"democratic\": {\n
+        \            \"yes\": 42,\n             \"no\": 0,\n             \"present\":
+        0,\n             \"not_voting\": 5,\n             \"majority_position\": \"Yes\"\n
+        \           },\n           \"republican\": {\n             \"yes\": 41,\n
+        \            \"no\": 0,\n             \"present\": 0,\n             \"not_voting\":
+        10,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
+        {\n             \"yes\": 2,\n             \"no\": 0,\n             \"present\":
+        0,\n             \"not_voting\": 0\n            },\n           \"total\":
+        {\n             \"yes\": 85,\n             \"no\": 0,\n             \"present\":
+        0,\n             \"not_voting\": 15}\n          },\n        {\n           \"congress\":
+        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
+        186,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00186.xml\",\n
+        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00186\",\n
+        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/186.json\",\n
+        \          \"bill\": {\n           \"bill_id\": \"hr6157-115\",\n           \"number\":
+        \"H.R.6157\",\n           \"sponsor_id\": \"G000377\",\n           \"api_uri\":
+        \"https://api.propublica.org/congress/v1/115/bills/hr6157.json\",\n           \"title\":
+        \"Making appropriations for the Department of Defense for the fiscal year
+        ending September 30, 2019, and for other purposes.\",\n           \"latest_action\":
+        \"Message on Senate action sent to the House.\"\n           },\n           \"amendment\":
+        {\n           \"number\": \"S.Amdt. 3705 to S.Amdt. 3695\",\n           \"api_uri\":
+        \"https://api.propublica.org/congress/v1/115/amendments/samdt3705.json\",\n
+        \          \"sponsor_id\": \"M000639\",\n           \"sponsor\": \"Robert
+        Menendez\",\n           \"sponsor_uri\": \"https://api.propublica.org/congress/v1/members/M000639.json\",\n
+        \          \"sponsor_party\": \"D\",\n           \"sponsor_state\": \"N.J.\"\n
+        \          },\n           \"question\": \"On the Amendment\",\n           \"description\":
+        \"To provide funding for the Firefighter Cancer Registry Act of 2018.\",\n
+        \          \"vote_type\": \"1/2\",\n           \"date\": \"2018-08-20\",\n
+        \          \"time\": \"17:31:00\",\n           \"result\": \"Amendment Agreed
+        to\",\n           \"tie_breaker\": \"\",\n           \"tie_breaker_vote\":
+        \"\",\n           \"document_number\": \"\",\n           \"document_title\":
+        \"\",\n           \"democratic\": {\n             \"yes\": 42,\n             \"no\":
+        0,\n             \"present\": 0,\n             \"not_voting\": 5,\n             \"majority_position\":
+        \"Yes\"\n            },\n           \"republican\": {\n             \"yes\":
+        41,\n             \"no\": 0,\n             \"present\": 0,\n             \"not_voting\":
+        10,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
+        {\n             \"yes\": 2,\n             \"no\": 0,\n             \"present\":
+        0,\n             \"not_voting\": 0\n            },\n           \"total\":
+        {\n             \"yes\": 85,\n             \"no\": 0,\n             \"present\":
+        0,\n             \"not_voting\": 15}\n          },\n        {\n           \"congress\":
+        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
+        185,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00185.xml\",\n
+        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00185\",\n
+        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/185.json\",\n
+        \          \"bill\": {},\n           \"amendment\": {\n           },\n           \"nomination\":
+        {\n             \"nomination_id\": \"PN1897-115\",\n             \"number\":
+        \"PN1897\",\n             \"name\": \"Julius Ness Richardson\",\n             \"agency\":
+        \"The Judiciary\"\n           },\n           \"question\": \"On the Nomination\",\n
+        \          \"description\": \"Julius Ness Richardson, of South Carolina, to
+        be United States Circuit Judge for the Fourth Circuit\",\n           \"vote_type\":
+        \"1/2\",\n           \"date\": \"2018-08-16\",\n           \"time\": \"13:45:00\",\n
+        \          \"result\": \"Nomination Confirmed\",\n           \"tie_breaker\":
+        \"\",\n           \"tie_breaker_vote\": \"\",\n           \"document_number\":
+        \"1897\",\n           \"document_title\": \"Julius Ness Richardson, of South
+        Carolina, to be United States Circuit Judge for the Fourth Circuit\",\n           \"democratic\":
+        {\n             \"yes\": 38,\n             \"no\": 7,\n             \"present\":
+        0,\n             \"not_voting\": 2,\n             \"majority_position\": \"Yes\"\n
+        \           },\n           \"republican\": {\n             \"yes\": 42,\n
+        \            \"no\": 0,\n             \"present\": 0,\n             \"not_voting\":
+        9,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
+        {\n             \"yes\": 1,\n             \"no\": 1,\n             \"present\":
+        0,\n             \"not_voting\": 0\n            },\n           \"total\":
+        {\n             \"yes\": 81,\n             \"no\": 8,\n             \"present\":
+        0,\n             \"not_voting\": 11}\n          }\n         ]\n    }\n}\n"
+    http_version: 
+  recorded_at: Wed, 12 Sep 2018 03:40:03 GMT
+recorded_with: VCR 4.0.0
