@@ -8,7 +8,7 @@ class SavePropublicaVotesResponseToDatabase
   private
 
   def self.get_response_body_results
-    JSON.parse(make_request.body[:results], symbolize_names: true)
+    JSON.parse(make_request.body, symbolize_names: true)[:results][:votes]
   end
 
   def self.make_request
