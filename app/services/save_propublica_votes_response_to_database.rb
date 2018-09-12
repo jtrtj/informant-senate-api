@@ -16,6 +16,6 @@ class SavePropublicaVotesResponseToDatabase
   end
 
   def self.conn
-    ProPublicaConnection.conn
+    PropublicaConnection.conn
   end
 end
