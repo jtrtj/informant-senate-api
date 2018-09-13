@@ -8,7 +8,7 @@ class NewsApiEverythingRequest
 
   def self.make_request(query)
     conn.get do | req |
-      req.url '/everything'
+      req.url 'everything'
       req.params['q'] = query
       req.params['apiKey'] = ENV['news_api_key']
     end

@@ -23,37 +23,117 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '42918'
+      - '42358'
       Connection:
       - keep-alive
       Date:
-      - Wed, 12 Sep 2018 03:40:03 GMT
+      - Thu, 13 Sep 2018 22:04:34 GMT
       X-Amzn-Requestid:
-      - 884ce159-b63d-11e8-a546-933386c14d61
+      - ff40d7f9-b7a0-11e8-8fe0-7bca2ba49182
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Headers:
       - Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
       X-Amz-Apigw-Id:
-      - NFqW-HudIAMFlzg=
+      - NLfFzHXaoAMFzwA=
       Access-Control-Allow-Methods:
       - GET,OPTIONS
       X-Amzn-Trace-Id:
-      - Root=1-5b988a93-5dbabd9a66e093da972fe6a0;Sampled=0
+      - Root=1-5b9adef1-075e14d67f6952b96f0afefd;Sampled=0
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 e158a5cd644f102abc630a9f56b59d78.cloudfront.net (CloudFront)
+      - 1.1 0e018abb74f4918cb6e427c3e0a7ee33.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - ArDfamjZYaSJsrObsl18MN1ZrGekK-5le81RGeUS4UOZb5yJhLZM6w==
+      - H2JCU_reKusm7Fw2KPkmS21VZenpxa4kFbPRPfMJIcDAbyC53Fvu9A==
     body:
       encoding: UTF-8
       string: "{\n   \"status\":\"OK\",\n   \"copyright\":\"Copyright (c) 2018 Pro
         Publica Inc. All Rights Reserved.\",\n   \"results\": {\n      \"chamber\":
         \"Senate\",\n      \"offset\": 0,\n      \n      \n      \"num_results\":
         20,\n      \"votes\": [\n        {\n           \"congress\": 115,\n           \"chamber\":
-        \"Senate\",\n           \"session\": 2,\n           \"roll_call\": 204,\n
-        \          \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00204.xml\",\n
+        \"Senate\",\n           \"session\": 2,\n           \"roll_call\": 207,\n
+        \          \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00207.xml\",\n
+        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00207\",\n
+        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/207.json\",\n
+        \          \"bill\": {\n           \"bill_id\": \"hr5895-115\",\n           \"number\":
+        \"H.R.5895\",\n           \"sponsor_id\": \"S001148\",\n           \"api_uri\":
+        \"https://api.propublica.org/congress/v1/115/bills/hr5895.json\",\n           \"title\":
+        \"Making appropriations for energy and water development and related agencies
+        for the fiscal year ending September 30, 2019, and for other purposes.\",\n
+        \          \"latest_action\": \"Conference report H. Rept. 115-929 filed.
+        (text of conference report: CR H7946--8106)\"\n           },\n           \"amendment\":
+        {\n           },\n           \"question\": \"On the Conference Report\",\n
+        \          \"description\": \"A bill making appropriations for energy and
+        water development and related agencies for the fiscal year ending September
+        30, 2019, and for other purposes.\",\n           \"vote_type\": \"1/2\",\n
+        \          \"date\": \"2018-09-12\",\n           \"time\": \"18:57:00\",\n
+        \          \"result\": \"Conference Report Agreed to\",\n           \"tie_breaker\":
+        \"\",\n           \"tie_breaker_vote\": \"\",\n           \"document_number\":
+        \"5895\",\n           \"document_title\": \"A bill making appropriations for
+        energy and water development and related agencies for the fiscal year ending
+        September 30, 2019, and for other purposes.\",\n           \"democratic\":
+        {\n             \"yes\": 43,\n             \"no\": 3,\n             \"present\":
+        0,\n             \"not_voting\": 1,\n             \"majority_position\": \"Yes\"\n
+        \           },\n           \"republican\": {\n             \"yes\": 47,\n
+        \            \"no\": 2,\n             \"present\": 0,\n             \"not_voting\":
+        2,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
+        {\n             \"yes\": 2,\n             \"no\": 0,\n             \"present\":
+        0,\n             \"not_voting\": 0\n            },\n           \"total\":
+        {\n             \"yes\": 92,\n             \"no\": 5,\n             \"present\":
+        0,\n             \"not_voting\": 3}\n          },\n        {\n           \"congress\":
+        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
+        206,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00206.xml\",\n
+        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00206\",\n
+        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/206.json\",\n
+        \          \"bill\": {},\n           \"amendment\": {\n           },\n           \"nomination\":
+        {\n             \"nomination_id\": \"PN1620-115\",\n             \"number\":
+        \"PN1620\",\n             \"name\": \"Charles P. Rettig\",\n             \"agency\":
+        \"Department of the Treasury\"\n           },\n           \"question\": \"On
+        the Nomination\",\n           \"description\": \"Charles P. Rettig, of California,
+        to be Commissioner of Internal Revenue for the term expiring November 12,
+        2022\",\n           \"vote_type\": \"1/2\",\n           \"date\": \"2018-09-12\",\n
+        \          \"time\": \"18:32:00\",\n           \"result\": \"Nomination Confirmed\",\n
+        \          \"tie_breaker\": \"\",\n           \"tie_breaker_vote\": \"\",\n
+        \          \"document_number\": \"1620\",\n           \"document_title\":
+        \"Charles P. Rettig, of California, to be Commissioner of Internal Revenue
+        for the term expiring November 12, 2022\",\n           \"democratic\": {\n
+        \            \"yes\": 15,\n             \"no\": 31,\n             \"present\":
+        0,\n             \"not_voting\": 1,\n             \"majority_position\": \"No\"\n
+        \           },\n           \"republican\": {\n             \"yes\": 49,\n
+        \            \"no\": 0,\n             \"present\": 0,\n             \"not_voting\":
+        2,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
+        {\n             \"yes\": 0,\n             \"no\": 2,\n             \"present\":
+        0,\n             \"not_voting\": 0\n            },\n           \"total\":
+        {\n             \"yes\": 64,\n             \"no\": 33,\n             \"present\":
+        0,\n             \"not_voting\": 3}\n          },\n        {\n           \"congress\":
+        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
+        205,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00205.xml\",\n
+        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00205\",\n
+        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/205.json\",\n
+        \          \"bill\": {},\n           \"amendment\": {\n           },\n           \"nomination\":
+        {\n             \"nomination_id\": \"PN1620-115\",\n             \"number\":
+        \"PN1620\",\n             \"name\": \"Charles P. Rettig\",\n             \"agency\":
+        \"Department of the Treasury\"\n           },\n           \"question\": \"On
+        the Cloture Motion\",\n           \"description\": \"Charles P. Rettig, of
+        California, to be Commissioner of Internal Revenue for the term expiring November
+        12, 2022\",\n           \"vote_type\": \"1/2\",\n           \"date\": \"2018-09-12\",\n
+        \          \"time\": \"18:00:00\",\n           \"result\": \"Cloture Motion
+        Agreed to\",\n           \"tie_breaker\": \"\",\n           \"tie_breaker_vote\":
+        \"\",\n           \"document_number\": \"1620\",\n           \"document_title\":
+        \"Charles P. Rettig, of California, to be Commissioner of Internal Revenue
+        for the term expiring November 12, 2022\",\n           \"democratic\": {\n
+        \            \"yes\": 14,\n             \"no\": 32,\n             \"present\":
+        0,\n             \"not_voting\": 1,\n             \"majority_position\": \"No\"\n
+        \           },\n           \"republican\": {\n             \"yes\": 49,\n
+        \            \"no\": 0,\n             \"present\": 0,\n             \"not_voting\":
+        2,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
+        {\n             \"yes\": 0,\n             \"no\": 2,\n             \"present\":
+        0,\n             \"not_voting\": 0\n            },\n           \"total\":
+        {\n             \"yes\": 63,\n             \"no\": 34,\n             \"present\":
+        0,\n             \"not_voting\": 3}\n          },\n        {\n           \"congress\":
+        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
+        204,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00204.xml\",\n
         \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00204\",\n
         \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/204.json\",\n
         \          \"bill\": {},\n           \"amendment\": {\n           },\n           \"nomination\":
@@ -498,93 +578,7 @@ http_interactions:
         {\n             \"yes\": 2,\n             \"no\": 0,\n             \"present\":
         0,\n             \"not_voting\": 0\n            },\n           \"total\":
         {\n             \"yes\": 95,\n             \"no\": 0,\n             \"present\":
-        0,\n             \"not_voting\": 5}\n          },\n        {\n           \"congress\":
-        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
-        187,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00187.xml\",\n
-        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00187\",\n
-        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/187.json\",\n
-        \          \"bill\": {\n           \"bill_id\": \"hr6157-115\",\n           \"number\":
-        \"H.R.6157\",\n           \"sponsor_id\": \"G000377\",\n           \"api_uri\":
-        \"https://api.propublica.org/congress/v1/115/bills/hr6157.json\",\n           \"title\":
-        \"Making appropriations for the Department of Defense for the fiscal year
-        ending September 30, 2019, and for other purposes.\",\n           \"latest_action\":
-        \"Message on Senate action sent to the House.\"\n           },\n           \"amendment\":
-        {\n           \"number\": \"S.Amdt. 3706 to S.Amdt. 3695\",\n           \"api_uri\":
-        \"https://api.propublica.org/congress/v1/115/amendments/samdt3706.json\",\n
-        \          \"sponsor_id\": \"F000463\",\n           \"sponsor\": \"Deb Fischer\",\n
-        \          \"sponsor_uri\": \"https://api.propublica.org/congress/v1/members/F000463.json\",\n
-        \          \"sponsor_party\": \"R\",\n           \"sponsor_state\": \"Neb.\"\n
-        \          },\n           \"question\": \"On the Amendment\",\n           \"description\":
-        \"To appropriate an additional $10,000,000 for Operation and Maintenance,
-        Defense-Wide for POW/MIA identification within the Defense Personnel Accounting
-        Agency, and to provide an offset.\",\n           \"vote_type\": \"1/2\",\n
-        \          \"date\": \"2018-08-20\",\n           \"time\": \"18:03:00\",\n
-        \          \"result\": \"Amendment Agreed to\",\n           \"tie_breaker\":
-        \"\",\n           \"tie_breaker_vote\": \"\",\n           \"document_number\":
-        \"\",\n           \"document_title\": \"\",\n           \"democratic\": {\n
-        \            \"yes\": 42,\n             \"no\": 0,\n             \"present\":
-        0,\n             \"not_voting\": 5,\n             \"majority_position\": \"Yes\"\n
-        \           },\n           \"republican\": {\n             \"yes\": 41,\n
-        \            \"no\": 0,\n             \"present\": 0,\n             \"not_voting\":
-        10,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
-        {\n             \"yes\": 2,\n             \"no\": 0,\n             \"present\":
-        0,\n             \"not_voting\": 0\n            },\n           \"total\":
-        {\n             \"yes\": 85,\n             \"no\": 0,\n             \"present\":
-        0,\n             \"not_voting\": 15}\n          },\n        {\n           \"congress\":
-        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
-        186,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00186.xml\",\n
-        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00186\",\n
-        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/186.json\",\n
-        \          \"bill\": {\n           \"bill_id\": \"hr6157-115\",\n           \"number\":
-        \"H.R.6157\",\n           \"sponsor_id\": \"G000377\",\n           \"api_uri\":
-        \"https://api.propublica.org/congress/v1/115/bills/hr6157.json\",\n           \"title\":
-        \"Making appropriations for the Department of Defense for the fiscal year
-        ending September 30, 2019, and for other purposes.\",\n           \"latest_action\":
-        \"Message on Senate action sent to the House.\"\n           },\n           \"amendment\":
-        {\n           \"number\": \"S.Amdt. 3705 to S.Amdt. 3695\",\n           \"api_uri\":
-        \"https://api.propublica.org/congress/v1/115/amendments/samdt3705.json\",\n
-        \          \"sponsor_id\": \"M000639\",\n           \"sponsor\": \"Robert
-        Menendez\",\n           \"sponsor_uri\": \"https://api.propublica.org/congress/v1/members/M000639.json\",\n
-        \          \"sponsor_party\": \"D\",\n           \"sponsor_state\": \"N.J.\"\n
-        \          },\n           \"question\": \"On the Amendment\",\n           \"description\":
-        \"To provide funding for the Firefighter Cancer Registry Act of 2018.\",\n
-        \          \"vote_type\": \"1/2\",\n           \"date\": \"2018-08-20\",\n
-        \          \"time\": \"17:31:00\",\n           \"result\": \"Amendment Agreed
-        to\",\n           \"tie_breaker\": \"\",\n           \"tie_breaker_vote\":
-        \"\",\n           \"document_number\": \"\",\n           \"document_title\":
-        \"\",\n           \"democratic\": {\n             \"yes\": 42,\n             \"no\":
-        0,\n             \"present\": 0,\n             \"not_voting\": 5,\n             \"majority_position\":
-        \"Yes\"\n            },\n           \"republican\": {\n             \"yes\":
-        41,\n             \"no\": 0,\n             \"present\": 0,\n             \"not_voting\":
-        10,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
-        {\n             \"yes\": 2,\n             \"no\": 0,\n             \"present\":
-        0,\n             \"not_voting\": 0\n            },\n           \"total\":
-        {\n             \"yes\": 85,\n             \"no\": 0,\n             \"present\":
-        0,\n             \"not_voting\": 15}\n          },\n        {\n           \"congress\":
-        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
-        185,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00185.xml\",\n
-        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00185\",\n
-        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/185.json\",\n
-        \          \"bill\": {},\n           \"amendment\": {\n           },\n           \"nomination\":
-        {\n             \"nomination_id\": \"PN1897-115\",\n             \"number\":
-        \"PN1897\",\n             \"name\": \"Julius Ness Richardson\",\n             \"agency\":
-        \"The Judiciary\"\n           },\n           \"question\": \"On the Nomination\",\n
-        \          \"description\": \"Julius Ness Richardson, of South Carolina, to
-        be United States Circuit Judge for the Fourth Circuit\",\n           \"vote_type\":
-        \"1/2\",\n           \"date\": \"2018-08-16\",\n           \"time\": \"13:45:00\",\n
-        \          \"result\": \"Nomination Confirmed\",\n           \"tie_breaker\":
-        \"\",\n           \"tie_breaker_vote\": \"\",\n           \"document_number\":
-        \"1897\",\n           \"document_title\": \"Julius Ness Richardson, of South
-        Carolina, to be United States Circuit Judge for the Fourth Circuit\",\n           \"democratic\":
-        {\n             \"yes\": 38,\n             \"no\": 7,\n             \"present\":
-        0,\n             \"not_voting\": 2,\n             \"majority_position\": \"Yes\"\n
-        \           },\n           \"republican\": {\n             \"yes\": 42,\n
-        \            \"no\": 0,\n             \"present\": 0,\n             \"not_voting\":
-        9,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
-        {\n             \"yes\": 1,\n             \"no\": 1,\n             \"present\":
-        0,\n             \"not_voting\": 0\n            },\n           \"total\":
-        {\n             \"yes\": 81,\n             \"no\": 8,\n             \"present\":
-        0,\n             \"not_voting\": 11}\n          }\n         ]\n    }\n}\n"
+        0,\n             \"not_voting\": 5}\n          }\n         ]\n    }\n}\n"
     http_version: 
-  recorded_at: Wed, 12 Sep 2018 03:40:03 GMT
+  recorded_at: Thu, 13 Sep 2018 22:04:34 GMT
 recorded_with: VCR 4.0.0
