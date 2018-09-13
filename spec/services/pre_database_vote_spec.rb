@@ -3,7 +3,7 @@ require 'rails_helper'
 describe PreDatabaseVote do
   context 'attributes' do
     it 'creates attributes to be saved in the database from a ProPublica vote hash' do
-      file = File.read('spec/fixtures/mock_nomination_vote.json')
+      file = File.read('fixtures/mock_nomination_vote.json')
       data = JSON.parse(file, symbolize_names: true)
       
       pre_database_vote = PreDatabaseVote.new(data)
@@ -28,8 +28,8 @@ describe PreDatabaseVote do
     end
 
     it 'can create a vote for either a nomination or a bill' do
-      bill_vote_file = File.read('spec/fixtures/mock_bill_vote.json')
-      nomination_vote_file = File.read('spec/fixtures/mock_nomination_vote.json')
+      bill_vote_file = File.read('fixtures/mock_bill_vote.json')
+      nomination_vote_file = File.read('fixtures/mock_nomination_vote.json')
       bill_vote_data = JSON.parse(bill_vote_file, symbolize_names: true)
       nomination_vote_data = JSON.parse(nomination_vote_file, symbolize_names: true)
       pre_database_bill_vote = PreDatabaseVote.new(bill_vote_data)

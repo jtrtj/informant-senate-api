@@ -3,7 +3,7 @@ require 'rails_helper'
 describe AddVoteToDatabase do
   context 'instance methods' do
     it '#add_vote(vote) - takes Vote object and adds it to the database' do
-      file = File.read('spec/fixtures/mock_nomination_vote.json')
+      file = File.read('fixtures/mock_nomination_vote.json')
       data = JSON.parse(file, symbolize_names: true)
       vote = PreDatabaseVote.new(data)
       
