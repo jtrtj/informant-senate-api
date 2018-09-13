@@ -1,3 +1,5 @@
+require 'rails_helper'
+
 describe PropublicaConnection do
   context 'class methods' do
     it '.conn - makes a conncetion to propublica api with api key', :vcr do
