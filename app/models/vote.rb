@@ -18,4 +18,6 @@ class Vote < ApplicationRecord
                         :total_not_voting
 
   enum type_of: [:bill, :nomination]
+
+  has_many :articles
 end
