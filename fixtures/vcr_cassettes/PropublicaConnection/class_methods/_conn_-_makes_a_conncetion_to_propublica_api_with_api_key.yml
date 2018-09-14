@@ -27,25 +27,25 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Thu, 13 Sep 2018 22:04:34 GMT
+      - Fri, 14 Sep 2018 00:08:15 GMT
       X-Amzn-Requestid:
-      - ff40d7f9-b7a0-11e8-8fe0-7bca2ba49182
+      - 46b4b62d-b7b2-11e8-922d-eb2b8aab8449
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Headers:
       - Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
       X-Amz-Apigw-Id:
-      - NLfFzHXaoAMFzwA=
+      - NLxNZEZaoAMF6Fg=
       Access-Control-Allow-Methods:
       - GET,OPTIONS
       X-Amzn-Trace-Id:
-      - Root=1-5b9adef1-075e14d67f6952b96f0afefd;Sampled=0
+      - Root=1-5b9afbef-3f84a110cff50650fb260120;Sampled=0
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 0e018abb74f4918cb6e427c3e0a7ee33.cloudfront.net (CloudFront)
+      - 1.1 9204cf44179493ed42c678800a26918b.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - H2JCU_reKusm7Fw2KPkmS21VZenpxa4kFbPRPfMJIcDAbyC53Fvu9A==
+      - i78FDHdXlFDU18u49h7h342MKoBTfquiKYLXv7RmHt85r2XHgOBINQ==
     body:
       encoding: UTF-8
       string: "{\n   \"status\":\"OK\",\n   \"copyright\":\"Copyright (c) 2018 Pro
@@ -580,5 +580,5 @@ http_interactions:
         {\n             \"yes\": 95,\n             \"no\": 0,\n             \"present\":
         0,\n             \"not_voting\": 5}\n          }\n         ]\n    }\n}\n"
     http_version: 
-  recorded_at: Thu, 13 Sep 2018 22:04:34 GMT
+  recorded_at: Fri, 14 Sep 2018 00:08:15 GMT
 recorded_with: VCR 4.0.0
