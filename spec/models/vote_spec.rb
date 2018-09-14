@@ -22,6 +22,6 @@ RSpec.describe Vote, type: :model do
     it { should validate_presence_of(:total_not_voting) }
   end
   context 'relationships' do
-    
+    it { should have_many(:articles) } 
   end
 end
