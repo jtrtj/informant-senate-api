@@ -1,7 +1,7 @@
 class SaveNewsApiResponseToArticles < SimpleDelegator
   def save_news_to_article
     pre_database_articles.each do | article |
-      Article.create(vote:        self,
+      Article.create(vote_id:     self.id,
                      title:       article.title,
                      description: article.description,
                      url:         article.url,
