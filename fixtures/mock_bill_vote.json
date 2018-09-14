@@ -1,0 +1,62 @@
+{
+  "congress": 115,
+  "chamber": "Senate",
+  "session": 2,
+  "roll_call": 190,
+  "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00190.xml",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00190",
+  "vote_uri": "https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/190.json",
+  "bill": {
+      "bill_id": "hr6157-115",
+      "number": "H.R.6157",
+      "sponsor_id": "G000377",
+      "api_uri": "https://api.propublica.org/congress/v1/115/bills/hr6157.json",
+      "title": "Making appropriations for the Department of Defense for the fiscal year ending September 30, 2019, and for other purposes.",
+      "latest_action": "Message on Senate action sent to the House."
+  },
+  "amendment": {
+      "number": "S.Amdt. 3695",
+      "api_uri": "https://api.propublica.org/congress/v1/115/amendments/samdt3695.json",
+      "sponsor_id": "S000320",
+      "sponsor": "Richard C. Shelby",
+      "sponsor_uri": "https://api.propublica.org/congress/v1/members/S000320.json",
+      "sponsor_party": "R",
+      "sponsor_state": "Ala."
+  },
+  "question": "On the Cloture Motion",
+  "description": "In the nature of a substitute.",
+  "vote_type": "3/5",
+  "date": "2018-08-23",
+  "time": "10:35:00",
+  "result": "Cloture Motion Agreed to",
+  "tie_breaker": "",
+  "tie_breaker_vote": "",
+  "document_number": "",
+  "document_title": "",
+  "democratic": {
+      "yes": 44,
+      "no": 0,
+      "present": 0,
+      "not_voting": 3,
+      "majority_position": "Yes"
+  },
+  "republican": {
+      "yes": 45,
+      "no": 5,
+      "present": 0,
+      "not_voting": 1,
+      "majority_position": "Yes"
+  },
+  "independent": {
+      "yes": 1,
+      "no": 1,
+      "present": 0,
+      "not_voting": 0
+  },
+  "total": {
+      "yes": 90,
+      "no": 6,
+      "present": 0,
+      "not_voting": 4
+  }
+}

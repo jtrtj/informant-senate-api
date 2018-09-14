@@ -10,6 +10,8 @@ gem 'rails', '~> 5.1.6'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.7'
 gem 'fast_jsonapi'
+gem 'faraday'
+gem 'figaro'
 
 
 group :development, :test do
@@ -30,6 +32,9 @@ group :test do
   gem 'database_cleaner'
   gem 'faker'
   gem 'simplecov'
+  gem 'nyan-cat-formatter'
+  gem 'webmock'
+  gem 'vcr'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
