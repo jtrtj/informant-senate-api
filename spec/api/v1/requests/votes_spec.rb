@@ -10,11 +10,12 @@ RSpec.describe 'Votes API', type: :request do
     end
 
     it 'returns votes' do
-      expect(json["data"].first["attributes"]).to have_key("number")
-      expect(json["data"].first["attributes"]).to have_key("question")
-      expect(json["data"].first["attributes"]).to have_key("description")
-      expect(json["data"].first["attributes"]).to have_key("type_of")
-      expect(json["data"].size).to eq(10)
+      expect(json.first).to have_key("number")
+      expect(json.first).to have_key("question")
+      expect(json.first).to have_key("description")
+      expect(json.first).to have_key("type_of")
+      expect(json.first).to have_key("articles")
+      expect(json.size).to eq(10)
     end
 
   end
