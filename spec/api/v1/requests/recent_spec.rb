@@ -12,11 +12,18 @@ RSpec.describe 'Votes Api', type: :request do
     end
 
     it "returns the most recent vote with it's related articles" do
-      
-      binding.pry
-      
-      expect(json["vote"]).to have_key("number")
-      expect(json["vote"]["articles"]).to have_key("title")
+      expect(json.first["number"]).to eq(new_vote.number)
+      expect(json.first["question"]).to eq(new_vote.question)
+      expect(json.first["description"]).to eq(new_vote.description)
+      expect(json.first["description"]).to eq(new_vote.description)
+      expect(json.first["result"]).to eq(new_vote.result)
+      expect(json.first["result"]).to eq(new_vote.result)
+      expect(json.first["type_of"]).to eq(new_vote.type_of)
+      expect(json.first["articles"].first).to have_key("title")
+      expect(json.first["articles"].first).to have_key("description")
+      expect(json.first["articles"].first).to have_key("source")
+      expect(json.first["articles"].first).to have_key("image_url")
+      expect(json.first["articles"].first).to have_key("url")
     end
   end
 end

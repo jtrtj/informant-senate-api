@@ -1,6 +1,6 @@
 class Api::V1::VotesController < ApplicationController
   def index
-    @votes = Vote.all
-    json_response(@votes)
+    votes = Vote.all
+    render json: VoteBlueprint.render(votes)
   end
 end
