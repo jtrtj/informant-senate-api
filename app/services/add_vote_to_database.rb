@@ -1,5 +1,8 @@
 class AddVoteToDatabase < SimpleDelegator
   def add_vote
+    if Vote.exists?(number: number)
+      puts "vote #{number} all ready exists in db."
+    else
     Vote.create(number: number, 
                 question: question,
                 description: description,
@@ -18,5 +21,6 @@ class AddVoteToDatabase < SimpleDelegator
                 total_no: total_no,
                 total_not_voting: total_not_voting
                 )
+    end
   end
 end

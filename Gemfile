@@ -9,9 +9,9 @@ end
 gem 'rails', '~> 5.1.6'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.7'
-gem 'fast_jsonapi'
 gem 'faraday'
 gem 'figaro'
+gem 'blueprinter'
 
 
 group :development, :test do
