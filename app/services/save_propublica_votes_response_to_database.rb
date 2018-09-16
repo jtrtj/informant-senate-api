@@ -1,6 +1,6 @@
 class SavePropublicaVotesResponseToDatabase
   def self.save_recent_votes
-    pre_database_votes_from_response.each do | pre_database_vote |
+    pre_database_votes_from_response.map do | pre_database_vote |
       AddVoteToDatabase.new(pre_database_vote).add_vote
     end
   end
