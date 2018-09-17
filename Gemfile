@@ -12,7 +12,7 @@ gem 'puma', '~> 3.7'
 gem 'faraday'
 gem 'figaro'
 gem 'blueprinter'
-
+gem 'rack-cors'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
