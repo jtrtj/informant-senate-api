@@ -10,7 +10,8 @@ RSpec.describe 'Votes Api', type: :request do
       article_id = article.id
 
       post "/api/v1/tweeted-articles?uid=#{uid}&article=#{article_id}"
-
+    
+      expect(response.status).to eq(201)
       expect(TweetedArticle.last.uid).to eq(uid)
       expect(TweetedArticle.last.article).to eq(article)
     end
