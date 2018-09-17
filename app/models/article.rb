@@ -6,4 +6,5 @@ class Article < ApplicationRecord
                         :source
 
   belongs_to :vote
+  has_many :tweeted_articles
 end
