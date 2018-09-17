@@ -3,7 +3,7 @@ require 'rails_helper'
 describe SaveTweetedArticle do
   context 'instance methods' do
     it '#save' do
-      article = create(:article)
+      article = create(:article, vote: create(:vote))
       params = {uid: 6543, article: article.id}
 
       sta = SaveTweetedArticle.new(params)

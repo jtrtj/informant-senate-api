@@ -1,8 +1,7 @@
 class Api::V1::TweetedArticlesController < ApplicationController
   def create
-    sta = SaveTweetedArticle.new(tweeted_article_params)
-    sta.save
-    render status: sta.status
+    SaveTweetedArticle.new(tweeted_article_params).save
+    render status: 201
   end
 
   private
