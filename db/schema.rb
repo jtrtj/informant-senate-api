@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180914034323) do
+ActiveRecord::Schema.define(version: 20180917172603) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -25,6 +25,14 @@ ActiveRecord::Schema.define(version: 20180914034323) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["vote_id"], name: "index_articles_on_vote_id"
+  end
+
+  create_table "tweeted_articles", force: :cascade do |t|
+    t.string "twitter_uid"
+    t.bigint "article_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["article_id"], name: "index_tweeted_articles_on_article_id"
   end
 
   create_table "votes", force: :cascade do |t|
@@ -50,4 +58,5 @@ ActiveRecord::Schema.define(version: 20180914034323) do
   end
 
   add_foreign_key "articles", "votes"
+  add_foreign_key "tweeted_articles", "articles"
 end

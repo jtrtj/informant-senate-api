@@ -23,37 +23,124 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '42358'
+      - '42113'
       Connection:
       - keep-alive
       Date:
-      - Fri, 14 Sep 2018 00:21:58 GMT
+      - Tue, 18 Sep 2018 18:10:05 GMT
       X-Amzn-Requestid:
-      - 3185f8f1-b7b4-11e8-9635-fdfdf00f3031
+      - 11c8d113-bb6e-11e8-9612-d57cd833806d
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Headers:
       - Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
       X-Amz-Apigw-Id:
-      - NLzODHOYIAMF0BA=
+      - NbbblGlbIAMF9jw=
       Access-Control-Allow-Methods:
       - GET,OPTIONS
       X-Amzn-Trace-Id:
-      - Root=1-5b9aff26-d8160f980ae981903fe606f0;Sampled=0
+      - Root=1-5ba13f7d-7659bdc4f177b16810146d66;Sampled=0
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 235fa9476ee502b13c0801d1fa3b57a2.cloudfront.net (CloudFront)
+      - 1.1 045f1e1f031241f3808c557a2b5d6b0a.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - sOhYREmqqHVVkmNYhNdA6ja3kXdR0_VmSdpf2wzMFRp6lW4B6QYP6A==
+      - jaenWlk6uEEr-lv28uHJNW86F4BbBuPs-NWwr2BoQHWzLcIp5UNcrQ==
     body:
       encoding: UTF-8
       string: "{\n   \"status\":\"OK\",\n   \"copyright\":\"Copyright (c) 2018 Pro
         Publica Inc. All Rights Reserved.\",\n   \"results\": {\n      \"chamber\":
         \"Senate\",\n      \"offset\": 0,\n      \n      \n      \"num_results\":
         20,\n      \"votes\": [\n        {\n           \"congress\": 115,\n           \"chamber\":
-        \"Senate\",\n           \"session\": 2,\n           \"roll_call\": 207,\n
-        \          \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00207.xml\",\n
+        \"Senate\",\n           \"session\": 2,\n           \"roll_call\": 210,\n
+        \          \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00210.xml\",\n
+        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00210\",\n
+        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/210.json\",\n
+        \          \"bill\": {\n           \"bill_id\": \"hr6-115\",\n           \"number\":
+        \"H.R.6\",\n           \"sponsor_id\": \"W000791\",\n           \"api_uri\":
+        \"https://api.propublica.org/congress/v1/115/bills/hr6.json\",\n           \"title\":
+        \"To provide for opioid use disorder prevention, recovery, and treatment,
+        and for other purposes.\",\n           \"latest_action\": \"Passed Senate
+        with an amendment by Yea-Nay Vote. 99 - 1. Record Vote Number: 210.\"\n           },\n
+        \          \"amendment\": {\n           },\n           \"question\": \"On
+        Passage of the Bill\",\n           \"description\": \"A bill to provide for
+        opioid use disorder prevention, recovery, and treatment, and for other purposes.\",\n
+        \          \"vote_type\": \"1/2\",\n           \"date\": \"2018-09-17\",\n
+        \          \"time\": \"18:35:00\",\n           \"result\": \"Bill Passed\",\n
+        \          \"tie_breaker\": \"\",\n           \"tie_breaker_vote\": \"\",\n
+        \          \"document_number\": \"6\",\n           \"document_title\": \"A
+        bill to provide for opioid use disorder prevention, recovery, and treatment,
+        and for other purposes.\",\n           \"democratic\": {\n             \"yes\":
+        47,\n             \"no\": 0,\n             \"present\": 0,\n             \"not_voting\":
+        0,\n             \"majority_position\": \"Yes\"\n            },\n           \"republican\":
+        {\n             \"yes\": 50,\n             \"no\": 1,\n             \"present\":
+        0,\n             \"not_voting\": 0,\n             \"majority_position\": \"Yes\"\n
+        \           },\n           \"independent\": {\n             \"yes\": 2,\n
+        \            \"no\": 0,\n             \"present\": 0,\n             \"not_voting\":
+        0\n            },\n           \"total\": {\n             \"yes\": 99,\n             \"no\":
+        1,\n             \"present\": 0,\n             \"not_voting\": 0}\n          },\n
+        \       {\n           \"congress\": 115,\n           \"chamber\": \"Senate\",\n
+        \          \"session\": 2,\n           \"roll_call\": 209,\n           \"source\":
+        \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00209.xml\",\n
+        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00209\",\n
+        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/209.json\",\n
+        \          \"bill\": {\n           \"bill_id\": \"s2554-115\",\n           \"number\":
+        \"S.2554\",\n           \"sponsor_id\": \"C001035\",\n           \"api_uri\":
+        \"https://api.propublica.org/congress/v1/115/bills/s2554.json\",\n           \"title\":
+        \"A bill to ensure that health insurance issuers and group health plans do
+        not prohibit pharmacy providers from providing certain information to enrollees.\",\n
+        \          \"latest_action\": \"Passed Senate with an amendment by Yea-Nay
+        Vote. 98 - 2. Record Vote Number: 209.\"\n           },\n           \"amendment\":
+        {\n           },\n           \"question\": \"On Passage of the Bill\",\n           \"description\":
+        \"A bill to ensure that health insurance issuers and group health plans do
+        not prohibit pharmacy providers from providing certain information to enrollees.\",\n
+        \          \"vote_type\": \"1/2\",\n           \"date\": \"2018-09-17\",\n
+        \          \"time\": \"18:16:00\",\n           \"result\": \"Bill Passed\",\n
+        \          \"tie_breaker\": \"\",\n           \"tie_breaker_vote\": \"\",\n
+        \          \"document_number\": \"2554\",\n           \"document_title\":
+        \"A bill to ensure that health insurance issuers and group health plans do
+        not prohibit pharmacy providers from providing certain information to enrollees.\",\n
+        \          \"democratic\": {\n             \"yes\": 47,\n             \"no\":
+        0,\n             \"present\": 0,\n             \"not_voting\": 0,\n             \"majority_position\":
+        \"Yes\"\n            },\n           \"republican\": {\n             \"yes\":
+        49,\n             \"no\": 2,\n             \"present\": 0,\n             \"not_voting\":
+        0,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
+        {\n             \"yes\": 2,\n             \"no\": 0,\n             \"present\":
+        0,\n             \"not_voting\": 0\n            },\n           \"total\":
+        {\n             \"yes\": 98,\n             \"no\": 2,\n             \"present\":
+        0,\n             \"not_voting\": 0}\n          },\n        {\n           \"congress\":
+        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
+        208,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00208.xml\",\n
+        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00208\",\n
+        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/208.json\",\n
+        \          \"bill\": {\n           \"bill_id\": \"s2554-115\",\n           \"number\":
+        \"S.2554\",\n           \"sponsor_id\": \"C001035\",\n           \"api_uri\":
+        \"https://api.propublica.org/congress/v1/115/bills/s2554.json\",\n           \"title\":
+        \"A bill to ensure that health insurance issuers and group health plans do
+        not prohibit pharmacy providers from providing certain information to enrollees.\",\n
+        \          \"latest_action\": \"Passed Senate with an amendment by Yea-Nay
+        Vote. 98 - 2. Record Vote Number: 209.\"\n           },\n           \"amendment\":
+        {\n           \"number\": \"S.Amdt. 4011\",\n           \"api_uri\": \"https://api.propublica.org/congress/v1/115/amendments/samdt4011.json\",\n
+        \          \"sponsor_id\": \"L000577\",\n           \"sponsor\": \"Mike Lee\",\n
+        \          \"sponsor_uri\": \"https://api.propublica.org/congress/v1/members/L000577.json\",\n
+        \          \"sponsor_party\": \"R\",\n           \"sponsor_state\": \"Utah\"\n
+        \          },\n           \"question\": \"On the Amendment\",\n           \"description\":
+        \"To limit application of the gag clause to self-insured group health plans.\",\n
+        \          \"vote_type\": \"1/2\",\n           \"date\": \"2018-09-17\",\n
+        \          \"time\": \"17:43:00\",\n           \"result\": \"Amendment Rejected\",\n
+        \          \"tie_breaker\": \"\",\n           \"tie_breaker_vote\": \"\",\n
+        \          \"document_number\": \"\",\n           \"document_title\": \"\",\n
+        \          \"democratic\": {\n             \"yes\": 0,\n             \"no\":
+        47,\n             \"present\": 0,\n             \"not_voting\": 0,\n             \"majority_position\":
+        \"No\"\n            },\n           \"republican\": {\n             \"yes\":
+        11,\n             \"no\": 40,\n             \"present\": 0,\n             \"not_voting\":
+        0,\n             \"majority_position\": \"No\"\n            },\n           \"independent\":
+        {\n             \"yes\": 0,\n             \"no\": 2,\n             \"present\":
+        0,\n             \"not_voting\": 0\n            },\n           \"total\":
+        {\n             \"yes\": 11,\n             \"no\": 89,\n             \"present\":
+        0,\n             \"not_voting\": 0}\n          },\n        {\n           \"congress\":
+        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
+        207,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00207.xml\",\n
         \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00207\",\n
         \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/207.json\",\n
         \          \"bill\": {\n           \"bill_id\": \"hr5895-115\",\n           \"number\":
@@ -61,8 +148,7 @@ http_interactions:
         \"https://api.propublica.org/congress/v1/115/bills/hr5895.json\",\n           \"title\":
         \"Making appropriations for energy and water development and related agencies
         for the fiscal year ending September 30, 2019, and for other purposes.\",\n
-        \          \"latest_action\": \"Conference report H. Rept. 115-929 filed.
-        (text of conference report: CR H7946--8106)\"\n           },\n           \"amendment\":
+        \          \"latest_action\": \"Correct Enrollment\"\n           },\n           \"amendment\":
         {\n           },\n           \"question\": \"On the Conference Report\",\n
         \          \"description\": \"A bill making appropriations for energy and
         water development and related agencies for the fiscal year ending September
@@ -412,8 +498,9 @@ http_interactions:
         \"https://api.propublica.org/congress/v1/115/bills/hr6157.json\",\n           \"title\":
         \"Making appropriations for the Department of Defense for the fiscal year
         ending September 30, 2019, and for other purposes.\",\n           \"latest_action\":
-        \"Message on Senate action sent to the House.\"\n           },\n           \"amendment\":
-        {\n           },\n           \"question\": \"On Passage of the Bill\",\n           \"description\":
+        \"Cloture motion on the conference report to accompany H.R. 6157 presented
+        in Senate.\"\n           },\n           \"amendment\": {\n           },\n
+        \          \"question\": \"On Passage of the Bill\",\n           \"description\":
         \"A bill making appropriations for the Department of Defense for the fiscal
         year ending September 30, 2019, and for other purposes.\",\n           \"vote_type\":
         \"1/2\",\n           \"date\": \"2018-08-23\",\n           \"time\": \"17:15:00\",\n
@@ -439,8 +526,9 @@ http_interactions:
         \"https://api.propublica.org/congress/v1/115/bills/hr6157.json\",\n           \"title\":
         \"Making appropriations for the Department of Defense for the fiscal year
         ending September 30, 2019, and for other purposes.\",\n           \"latest_action\":
-        \"Message on Senate action sent to the House.\"\n           },\n           \"amendment\":
-        {\n           \"number\": \"S.Amdt. 3695\",\n           \"api_uri\": \"https://api.propublica.org/congress/v1/115/amendments/samdt3695.json\",\n
+        \"Cloture motion on the conference report to accompany H.R. 6157 presented
+        in Senate.\"\n           },\n           \"amendment\": {\n           \"number\":
+        \"S.Amdt. 3695\",\n           \"api_uri\": \"https://api.propublica.org/congress/v1/115/amendments/samdt3695.json\",\n
         \          \"sponsor_id\": \"S000320\",\n           \"sponsor\": \"Richard
         C. Shelby\",\n           \"sponsor_uri\": \"https://api.propublica.org/congress/v1/members/S000320.json\",\n
         \          \"sponsor_party\": \"R\",\n           \"sponsor_state\": \"Ala.\"\n
@@ -468,9 +556,9 @@ http_interactions:
         \"https://api.propublica.org/congress/v1/115/bills/hr6157.json\",\n           \"title\":
         \"Making appropriations for the Department of Defense for the fiscal year
         ending September 30, 2019, and for other purposes.\",\n           \"latest_action\":
-        \"Message on Senate action sent to the House.\"\n           },\n           \"amendment\":
-        {\n           \"number\": \"S.Amdt. 3967 to S.Amdt. 3695\",\n           \"api_uri\":
-        \"https://api.propublica.org/congress/v1/115/amendments/samdt3967.json\",\n
+        \"Cloture motion on the conference report to accompany H.R. 6157 presented
+        in Senate.\"\n           },\n           \"amendment\": {\n           \"number\":
+        \"S.Amdt. 3967 to S.Amdt. 3695\",\n           \"api_uri\": \"https://api.propublica.org/congress/v1/115/amendments/samdt3967.json\",\n
         \          \"sponsor_id\": \"P000603\",\n           \"sponsor\": \"Rand Paul\",\n
         \          \"sponsor_uri\": \"https://api.propublica.org/congress/v1/members/P000603.json\",\n
         \          \"sponsor_party\": \"R\",\n           \"sponsor_state\": \"Ky.\"\n
@@ -488,97 +576,7 @@ http_interactions:
         {\n             \"yes\": 0,\n             \"no\": 2,\n             \"present\":
         0,\n             \"not_voting\": 0\n            },\n           \"total\":
         {\n             \"yes\": 45,\n             \"no\": 48,\n             \"present\":
-        0,\n             \"not_voting\": 7}\n          },\n        {\n           \"congress\":
-        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
-        190,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00190.xml\",\n
-        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00190\",\n
-        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/190.json\",\n
-        \          \"bill\": {\n           \"bill_id\": \"hr6157-115\",\n           \"number\":
-        \"H.R.6157\",\n           \"sponsor_id\": \"G000377\",\n           \"api_uri\":
-        \"https://api.propublica.org/congress/v1/115/bills/hr6157.json\",\n           \"title\":
-        \"Making appropriations for the Department of Defense for the fiscal year
-        ending September 30, 2019, and for other purposes.\",\n           \"latest_action\":
-        \"Message on Senate action sent to the House.\"\n           },\n           \"amendment\":
-        {\n           \"number\": \"S.Amdt. 3695\",\n           \"api_uri\": \"https://api.propublica.org/congress/v1/115/amendments/samdt3695.json\",\n
-        \          \"sponsor_id\": \"S000320\",\n           \"sponsor\": \"Richard
-        C. Shelby\",\n           \"sponsor_uri\": \"https://api.propublica.org/congress/v1/members/S000320.json\",\n
-        \          \"sponsor_party\": \"R\",\n           \"sponsor_state\": \"Ala.\"\n
-        \          },\n           \"question\": \"On the Cloture Motion\",\n           \"description\":
-        \"In the nature of a substitute.\",\n           \"vote_type\": \"3/5\",\n
-        \          \"date\": \"2018-08-23\",\n           \"time\": \"10:35:00\",\n
-        \          \"result\": \"Cloture Motion Agreed to\",\n           \"tie_breaker\":
-        \"\",\n           \"tie_breaker_vote\": \"\",\n           \"document_number\":
-        \"\",\n           \"document_title\": \"\",\n           \"democratic\": {\n
-        \            \"yes\": 44,\n             \"no\": 0,\n             \"present\":
-        0,\n             \"not_voting\": 3,\n             \"majority_position\": \"Yes\"\n
-        \           },\n           \"republican\": {\n             \"yes\": 45,\n
-        \            \"no\": 5,\n             \"present\": 0,\n             \"not_voting\":
-        1,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
-        {\n             \"yes\": 1,\n             \"no\": 1,\n             \"present\":
-        0,\n             \"not_voting\": 0\n            },\n           \"total\":
-        {\n             \"yes\": 90,\n             \"no\": 6,\n             \"present\":
-        0,\n             \"not_voting\": 4}\n          },\n        {\n           \"congress\":
-        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
-        189,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00189.xml\",\n
-        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00189\",\n
-        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/189.json\",\n
-        \          \"bill\": {\n           \"bill_id\": \"hr6157-115\",\n           \"number\":
-        \"H.R.6157\",\n           \"sponsor_id\": \"G000377\",\n           \"api_uri\":
-        \"https://api.propublica.org/congress/v1/115/bills/hr6157.json\",\n           \"title\":
-        \"Making appropriations for the Department of Defense for the fiscal year
-        ending September 30, 2019, and for other purposes.\",\n           \"latest_action\":
-        \"Message on Senate action sent to the House.\"\n           },\n           \"amendment\":
-        {\n           \"number\": \"S.Amdt. 3703 to S.Amdt. 3695\",\n           \"api_uri\":
-        \"https://api.propublica.org/congress/v1/115/amendments/samdt3703.json\",\n
-        \          \"sponsor_id\": \"K000393\",\n           \"sponsor\": \"John Kennedy\",\n
-        \          \"sponsor_uri\": \"https://api.propublica.org/congress/v1/members/K000393.json\",\n
-        \          \"sponsor_party\": \"R\",\n           \"sponsor_state\": \"La.\"\n
-        \          },\n           \"question\": \"On the Amendment\",\n           \"description\":
-        \"To increase funding for the National Suicide Prevention Lifeline.\",\n           \"vote_type\":
-        \"1/2\",\n           \"date\": \"2018-08-21\",\n           \"time\": \"12:53:00\",\n
-        \          \"result\": \"Amendment Agreed to\",\n           \"tie_breaker\":
-        \"\",\n           \"tie_breaker_vote\": \"\",\n           \"document_number\":
-        \"\",\n           \"document_title\": \"\",\n           \"democratic\": {\n
-        \            \"yes\": 44,\n             \"no\": 0,\n             \"present\":
-        0,\n             \"not_voting\": 3,\n             \"majority_position\": \"Yes\"\n
-        \           },\n           \"republican\": {\n             \"yes\": 49,\n
-        \            \"no\": 0,\n             \"present\": 0,\n             \"not_voting\":
-        2,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
-        {\n             \"yes\": 2,\n             \"no\": 0,\n             \"present\":
-        0,\n             \"not_voting\": 0\n            },\n           \"total\":
-        {\n             \"yes\": 95,\n             \"no\": 0,\n             \"present\":
-        0,\n             \"not_voting\": 5}\n          },\n        {\n           \"congress\":
-        115,\n           \"chamber\": \"Senate\",\n           \"session\": 2,\n           \"roll_call\":
-        188,\n           \"source\": \"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00188.xml\",\n
-        \          \"url\": \"https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00188\",\n
-        \          \"vote_uri\": \"https://api.propublica.org/congress/v1/115/senate/sessions/2/votes/188.json\",\n
-        \          \"bill\": {\n           \"bill_id\": \"hr6157-115\",\n           \"number\":
-        \"H.R.6157\",\n           \"sponsor_id\": \"G000377\",\n           \"api_uri\":
-        \"https://api.propublica.org/congress/v1/115/bills/hr6157.json\",\n           \"title\":
-        \"Making appropriations for the Department of Defense for the fiscal year
-        ending September 30, 2019, and for other purposes.\",\n           \"latest_action\":
-        \"Message on Senate action sent to the House.\"\n           },\n           \"amendment\":
-        {\n           \"number\": \"S.Amdt. 3773 to S.Amdt. 3695\",\n           \"api_uri\":
-        \"https://api.propublica.org/congress/v1/115/amendments/samdt3773.json\",\n
-        \          \"sponsor_id\": \"N000032\",\n           \"sponsor\": \"Bill Nelson\",\n
-        \          \"sponsor_uri\": \"https://api.propublica.org/congress/v1/members/N000032.json\",\n
-        \          \"sponsor_party\": \"D\",\n           \"sponsor_state\": \"Fla.\"\n
-        \          },\n           \"question\": \"On the Amendment\",\n           \"description\":
-        \"To require a Comptroller General of the United States report on the implementation
-        of the Military Health System Genesis electronic health record.\",\n           \"vote_type\":
-        \"1/2\",\n           \"date\": \"2018-08-21\",\n           \"time\": \"12:10:00\",\n
-        \          \"result\": \"Amendment Agreed to\",\n           \"tie_breaker\":
-        \"\",\n           \"tie_breaker_vote\": \"\",\n           \"document_number\":
-        \"\",\n           \"document_title\": \"\",\n           \"democratic\": {\n
-        \            \"yes\": 44,\n             \"no\": 0,\n             \"present\":
-        0,\n             \"not_voting\": 3,\n             \"majority_position\": \"Yes\"\n
-        \           },\n           \"republican\": {\n             \"yes\": 49,\n
-        \            \"no\": 0,\n             \"present\": 0,\n             \"not_voting\":
-        2,\n             \"majority_position\": \"Yes\"\n            },\n           \"independent\":
-        {\n             \"yes\": 2,\n             \"no\": 0,\n             \"present\":
-        0,\n             \"not_voting\": 0\n            },\n           \"total\":
-        {\n             \"yes\": 95,\n             \"no\": 0,\n             \"present\":
-        0,\n             \"not_voting\": 5}\n          }\n         ]\n    }\n}\n"
+        0,\n             \"not_voting\": 7}\n          }\n         ]\n    }\n}\n"
     http_version: 
-  recorded_at: Fri, 14 Sep 2018 00:21:58 GMT
+  recorded_at: Tue, 18 Sep 2018 18:10:05 GMT
 recorded_with: VCR 4.0.0
