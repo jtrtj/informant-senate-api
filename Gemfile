@@ -35,6 +35,7 @@ group :test do
   gem 'nyan-cat-formatter'
   gem 'webmock'
   gem 'vcr'
+  gem 'newrelic_rpm'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

@@ -85,6 +85,7 @@ GEM
     mini_portile2 (2.3.0)
     minitest (5.11.3)
     multipart-post (2.0.0)
+    newrelic_rpm (5.4.0.347)
     nio4r (2.3.1)
     nokogiri (1.8.4)
       mini_portile2 (~> 2.3.0)
@@ -194,6 +195,7 @@ DEPENDENCIES
   faraday
   figaro
   listen (>= 3.0.5, < 3.2)
+  newrelic_rpm
   nyan-cat-formatter
   pg (>= 0.18, < 2.0)
   pry
@@ -208,6 +210,9 @@ DEPENDENCIES
   tzinfo-data
   vcr
   webmock
+
+RUBY VERSION
+   ruby 2.4.1p111
 
 BUNDLED WITH
    1.16.4
