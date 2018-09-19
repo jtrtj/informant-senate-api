@@ -24,7 +24,7 @@ class Vote < ApplicationRecord
   def self.last_thirty_days
     includes(:articles)
     .where('created_at > ?', 30.days.ago)
-    .order(:created_at)
+    .order(created_at: :desc)
   end
 
   def self.most_recent
