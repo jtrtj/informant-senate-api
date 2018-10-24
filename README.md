@@ -42,7 +42,7 @@ Currently it is still in testing phase and needs to be built out to provide more
 1. cd into the directory
 1. `bundle update`
 1. `rake db:{create,migrate}`
-1. `rake:test` <- will grab 20 recent votes from ProPublica and append related news to them from News API.
+1. `rails rake:test:add_20` <- will grab 20 recent votes from ProPublica and append related news to them from News API.
 1. navigate to [http://localhost:3000/api/v1/votes](http://localhost:3000/api/v1/votes)
 
 #### Built with Ruby and Rails
